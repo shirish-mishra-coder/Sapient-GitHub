@@ -1,0 +1,13 @@
+insert into commodities values(10001,'TG', 'Tungsten');
+insert into commodities values(10002,'AL', 'Aluminium');
+insert into commodities values(10003,'CO', 'Copper');
+commit;
+insert into counterparties values(11001,'AP', 'APPLE');
+insert into counterparties values(11002,'TS', 'TATA STEEL');
+insert into counterparties values(11003,'RS', 'RELAINCE STEEL');
+commit;
+insert into locations values(11101,'NY', 'NEW YORK');
+insert into locations values(11102,'ND', 'NEW DELHI');
+insert into locations values(11103,'LD', 'LONDON');
+insert into locations values(11104,'MB', 'MUMBAI');
+commit;
