@@ -1,3 +1,14 @@
-#H2 settings
-spring.h2.console.enabled=true
-server.port=8081
+spring:
+  application:
+    name: ref-data-service
+  h2:
+    console:
+      enabled: true
+    
+server:
+  port: 8100
+  
+eureka:
+  client: 
+     service-url:
+          default-zone: http://localhost:8761/eureka
